@@ -1,6 +1,6 @@
 # 📬 LLM-Powered Email Summarizer to Discord (n8n Workflow)
 
-This project is an automation workflow built using [n8n](https://n8n.io/) that connects **Gmail**, **Google Gemini LLM**, and **Discord**. Its goal is to **read specific emails**, summarize them using a **Large Language Model**, and **send the summarized content to a Discord channel** — all automatically.
+This project is an automation workflow built using [n8n](https://n8n.io/) that connects **Gmail**, **Google Gemini LLM**, and **Notion**. Its goal is to **read specific emails**, summarize them using a **Large Language Model**, and **send the summarized content to a notion page** — all automatically.
 
 ---
 
@@ -10,7 +10,7 @@ This project is an automation workflow built using [n8n](https://n8n.io/) that c
 - **Gmail Trigger** – Detects new emails from specific sender(s)  
 - **Google Gemini Chat Model** – Summarizes the content of the email  
 - **Custom Code Node (JavaScript)** – Formats and prepares output  
-- **Discord Integration** – Sends the summary to a chosen Discord channel  
+- **Notion Integration** – Posts the summary to a Notion page  
 
 ---
 
@@ -21,7 +21,7 @@ This project is an automation workflow built using [n8n](https://n8n.io/) that c
 3. **Get Message**: Retrieves the full content of the email.
 4. **LLM Chain**: Sends email content to Google Gemini for summarization.
 5. **Code Node**: Formats the summarized text for display.
-6. **Discord Node**: Posts the result to a specified Discord channel.
+6. **Notion Node**: Posts the result to a specified Notion Page.
 
 ---
 
