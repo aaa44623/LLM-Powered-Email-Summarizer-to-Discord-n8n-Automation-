@@ -10,7 +10,8 @@ This project is an automation workflow built using [n8n](https://n8n.io/) that c
 - **Gmail Trigger** – Detects new emails from specific sender(s)  
 - **Google Gemini Chat Model** – Summarizes the content of the email  
 - **Custom Code Node (JavaScript)** – Formats and prepares output  
-- **Notion Integration** – Posts the summary to a Notion page  
+- **Notion Integration** – Posts the summary to a Notion page
+- **Discord Integration** - Notify channel new content has been uploaded  
 
 ---
 
@@ -21,7 +22,9 @@ This project is an automation workflow built using [n8n](https://n8n.io/) that c
 3. **Get Message**: Retrieves the full content of the email.
 4. **LLM Chain**: Sends email content to Google Gemini for summarization.
 5. **Code Node**: Formats the summarized text for display.
-6. **Notion Node**: Posts the result to a specified Notion Page.
+7. **Notion Node**: Posts the result to a specified Notion Page.
+8. **Mark As Read**: Gmail node that marks the email as read, after posting to Notion.
+9. **Discord Node**: Sends a notification to a specific Discord channel that new content has been uploaded.
 
 ---
 
