@@ -36,7 +36,7 @@ This project is ideal for:
 
 ## 🖼 Screenshot
 
-![n8n Workflow][(https://github.com/aaa44623/LLM-Powered-Email-Summarizer-to-Discord-n8n-Automation-/blob/main/CaptureUpdatedN8n.PNG)]
+![n8n Workflow][(https://github.com/aaa44623/LLM-Powered-Email-Summarizer-to-Discord-n8n-Automation-/blob/main/CaptureUpdatedN8nNew.PNG)]
 
 ---
 
